@@ -20,7 +20,7 @@ export default function Navbar() {
                     >
                         <Image
                             src="/florvida.png"
-                            alt="Vercel Logo"
+                            alt="Eyra Harbar"
                             className={styles.logo}
                             width={190}
                             height={170}
