@@ -1,53 +1,21 @@
 .main {
-  background-color: #FFFFFF;
+  background-color: #fffff;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
   padding: 2rem 6rem 6rem 6rem;
-  min-height: 100vh;
-}
-
-.description {
-  display: inherit;
-  justify-content: inherit;
-  align-items: inherit;
-  font-size: 0.85rem;
-  max-width: var(--max-width);
-  width: 100%;
-  z-index: 2;
-  font-family: var(--font-mono);
-}
-
-.description a {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 0.5rem;
-}
-
-.description p {
-  position: relative;
-  margin: 0;
-  padding: 1rem;
-  background-color: rgba(var(--callout-rgb), 0.5);
-  border: 1px solid rgba(var(--callout-border-rgb), 0.3);
-  border-radius: var(--border-radius);
-}
-
-.code {
-  font-weight: 700;
-  font-family: var(--font-mono);
 }
 
 .center {
+  width: 100%;
+  margin-top: 5rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
-  position: relative;
   padding: 4rem 0;
-  gap: 4rem;
 }
+
 
 /*.center::before {
   border-radius: 50%;
@@ -75,12 +43,19 @@
 .perfil {
   display: flex;
   flex-flow: column wrap;
-  justify-content: space-between;
+  justify-content: center;
   align-items: start;
-
+  gap: 0;
 }
-.perfilDescription {
-  width: 25rem;
+
+.perfil h1 {
+  margin: 0;
+  font-size: 4rem;
+}
+
+.perfil a {
+  font-size: 1rem;
+  font-weight: 700;
 }
 
 .logo {

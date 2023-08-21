@@ -10,14 +10,10 @@ export default function Home() {
       <div className={styles.center}>
         <div className={styles.perfil}>
           <h1>Eyra Harbar</h1>
-          <a href="https://7hosoft.vercel.app">@eyraharbar</a>
-          <a href="https://7hosoft.vercel.app">@tallercultura</a>
+          <a href="https://instagram.com/eyraharbar?igshid=MzRlODBiNWFlZA==">@eyraharbar</a>
+          <a href="https://instagram.com/tallercultura?igshid=MzRlODBiNWFlZA==">@tallercultura</a>
         </div>
-        <div className={styles.perfilDescription}>
-          <p>
-            (Bocas del Toro, 1972) Ha escrito poesía, cuento y literatura infantil. Su trabajo poético ha sido reconocido en varios premios nacionales y su obra está recogida en antologías y revistas del país e internacionales.
-          </p>
-        </div>
+
         <Image
           className={styles.logo}
           src="/perfil.png"

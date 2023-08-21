@@ -16,7 +16,7 @@ export default function Pages() {
                     Literatura infantil y juvenil
                 </h2>
                 <div className={styles.container}>
-                    <a 
+                    <div
                     href=''
                     className={styles.card}>
                         <Image
@@ -31,8 +31,8 @@ export default function Pages() {
                             <h3>2022 - Autobús esperanza, poemario</h3>
                             <p>Primer Premio Concurso Nacional de Literatura Infantil y Juvenil Carlos Francisco Changmarín, Ministerio de Cultura. Jurado: Ela Urriola, Gorka Lasa, Irene de Delgado.</p>
                         </div>
-                    </a>
-                    <a 
+                    </div>
+                    <div 
                     href=''
                     className={styles.card}>
                         <Image
@@ -47,8 +47,8 @@ export default function Pages() {
                             <h3>2022 - Autobús esperanza, poemario</h3>
                             <p>Primer Premio Concurso Nacional de Literatura Infantil y Juvenil Carlos Francisco Changmarín, Ministerio de Cultura. Jurado: Ela Urriola, Gorka Lasa, Irene de Delgado.</p>
                         </div>
-                    </a>
-                    <a 
+                    </div>
+                    <div 
                     href=''
                     className={styles.card}>
                         <Image
@@ -63,8 +63,8 @@ export default function Pages() {
                             <h3>2022 - Autobús esperanza, poemario</h3>
                             <p>Primer Premio Concurso Nacional de Literatura Infantil y Juvenil Carlos Francisco Changmarín, Ministerio de Cultura. Jurado: Ela Urriola, Gorka Lasa, Irene de Delgado.</p>
                         </div>
-                    </a>
-                    <a 
+                    </div>
+                    <div 
                     href=''
                     className={styles.card}>
                         <Image
@@ -79,8 +79,8 @@ export default function Pages() {
                             <h3>2022 - Autobús esperanza, poemario</h3>
                             <p>Primer Premio Concurso Nacional de Literatura Infantil y Juvenil Carlos Francisco Changmarín, Ministerio de Cultura. Jurado: Ela Urriola, Gorka Lasa, Irene de Delgado.</p>
                         </div>
-                    </a>
-                    <a 
+                    </div>
+                    <div 
                     href=''
                     className={styles.card}>
                         <Image
@@ -95,8 +95,8 @@ export default function Pages() {
                             <h3>2022 - Autobús esperanza, poemario</h3>
                             <p>Primer Premio Concurso Nacional de Literatura Infantil y Juvenil Carlos Francisco Changmarín, Ministerio de Cultura. Jurado: Ela Urriola, Gorka Lasa, Irene de Delgado.</p>
                         </div>
-                    </a>
-                    <a 
+                    </div>
+                    <div 
                     href=''
                     className={styles.card}>
                         <Image
@@ -111,8 +111,8 @@ export default function Pages() {
                             <h3>2022 - Autobús esperanza, poemario</h3>
                             <p>Primer Premio Concurso Nacional de Literatura Infantil y Juvenil Carlos Francisco Changmarín, Ministerio de Cultura. Jurado: Ela Urriola, Gorka Lasa, Irene de Delgado.</p>
                         </div>
-                    </a>
-                    <a 
+                    </div>
+                    <div 
                     href=''
                     className={styles.card}>
                         <Image
@@ -127,7 +127,7 @@ export default function Pages() {
                             <h3>2022 - Autobús esperanza, poemario</h3>
                             <p>Primer Premio Concurso Nacional de Literatura Infantil y Juvenil Carlos Francisco Changmarín, Ministerio de Cultura. Jurado: Ela Urriola, Gorka Lasa, Irene de Delgado.</p>
                         </div>
-                    </a>
+                    </div>
                 </div>
             </div>
 
