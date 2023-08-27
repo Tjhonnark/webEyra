@@ -2,17 +2,27 @@
   background-color: #ffffff;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   padding: 2rem 6rem 6rem 6rem;
-  min-height: 100vh;
 }
 
 .biography {
   margin-top: 5rem;
   display: flex;
-  flex-flow: column wrap;
-  justify-content: space-between;
-  align-items: center;
-  gap: 2rem;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.biography h1 {
+  margin: 0;
+}
+
+.container {
+}
+
+.image {
+  float: right;
+  margin: 0 0 1rem 1rem;
 }

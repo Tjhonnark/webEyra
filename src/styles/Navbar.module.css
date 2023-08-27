@@ -17,12 +17,12 @@
 }
 .logo {
     position: absolute;
-    top: 2rem;
+    top: 1rem;
     left: 4.5rem;
 }
 .navbar {
   background-color: rgba(0, 0, 0, 0.9);
-  width: 85%;
+  width: 80%;
   padding: 0.5rem;
   border-radius: 25px;
   display: flex;

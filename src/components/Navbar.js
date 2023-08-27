@@ -19,7 +19,7 @@ export default function Navbar() {
                         href="/"
                     >
                         <Image
-                            src="/florvida.png"
+                            src="/cat.png"
                             alt="Eyra Harbar"
                             className={styles.logo}
                             width={190}
@@ -29,6 +29,11 @@ export default function Navbar() {
                     </a>
                 </div>
                 <div className={styles.navbar}>
+                    <div className={styles.item}>
+                        <Link href="/">
+                            <i className="bi bi-house-fill"></i>Inicio
+                        </Link>
+                    </div>
                     <div className={styles.item}>
                         <Link href="/biography">
                             <i className="bi bi-house-fill"></i>Biografía
@@ -40,7 +45,7 @@ export default function Navbar() {
                         </Link>
                     </div>
                     <div className={styles.item}>
-                        <Link href="/literaria">
+                        <Link href="/obras">
                             <i className="bi bi-box-seam"></i>De su obra literaria
                         </Link>
                     </div>
@@ -51,7 +56,7 @@ export default function Navbar() {
                     </div>
                     <div className={styles.item}>
                         <Link href="/asociations">
-                            <i className="bi bi-envelope-paper-fill"></i>Asociaciones
+                            <i className="bi bi-envelope-paper-fill"></i>Taller cultura
                         </Link>
                     </div>
                 </div>
